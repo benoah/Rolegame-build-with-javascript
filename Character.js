@@ -18,6 +18,7 @@ of the getHealthBarHtml method.
 */
 
 
+
 function Character(data) {
     Object.assign(this, data)
     this.diceArray = getDicePlaceholderHtml(this.diceCount)

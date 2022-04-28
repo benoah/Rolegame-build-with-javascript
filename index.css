@@ -1,0 +1,74 @@
+html, body {
+    padding: 0;
+    margin: 0;    
+    background: rgb(51,43,55);
+    background: radial-gradient(circle, rgba(51,43,55,1) 0%, rgba(51,43,55,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    font-family: 'MedievalSharp', cursive;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+} 
+
+
+.health {
+    font-weight: normal;
+    width:90%;
+    letter-spacing: 0.03em
+}
+
+.dice-container {
+    width:100%;
+    height: 20%;
+    position: absolute;
+    bottom:0;
+    left:0px;
+    right:0;
+    background: #000721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    color: #fff;
+}
+
+.dice, .placeholder-dice{
+    height:5.5vh;
+    width:5.5vh;
+    background: #fff;   
+    border-radius: 5px;
+    border:1px solid #666;
+    color:#000721;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.dice-container .placeholder-dice{
+    background-color: transparent;
+}
+
+.character-card {
+    height:14rem;
+    margin-top: .5rem;
+    width:94vw;
+    max-width: 230px;
+    padding: 1vh 1vw;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 14px;
+    position: relative;
+    background: #231d24;
+    text-align: center;
+    border: 0.08rem solid #000721;
+    box-shadow: inset 0px 0px 6px 2px rgba(100,100,100,0.2),
+                0px 0px 10px rgba(117,182,214,0.2);
+}
